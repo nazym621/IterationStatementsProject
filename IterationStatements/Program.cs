@@ -12,6 +12,15 @@ namespace IterationStatements
             //DONE - Create a List called "numbers"
             var numbers = new List<int>();
 
+            var myArray = new int[5]; //0,1,2,3,4
+
+            for(int z = 0; z < myArray.Length; z++)
+            {
+                myArray[z] = z + 1;
+            }
+
+            Console.WriteLine(myArray[1]);
+
             //DONE - Create a variable of type int with an initializer of 0
             var i = 0;
 
